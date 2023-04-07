@@ -111,7 +111,7 @@ sub {
 img {
     border: 0;
     width: 10rem;
-    margin-top: 4%;
+
 }
 
 svg:not(:root) {
@@ -858,8 +858,9 @@ body {
 }
 
 .work--lockup .slider--item-image img {
-    width: 75%;
+    width: 70%;
     filter: invert(1);
+    margin-top: 10%;
 }
 
 .work--lockup .slider--item-left {
@@ -1354,6 +1355,12 @@ body {
     .hire {
         max-width:100%
     }
+    .work h2{
+        margin-top: 5%;
+    }
+    .work--lockup{
+        margin-top: -5%;
+    }
 }
 
 .hire h2 {
@@ -1552,8 +1559,7 @@ body {
     }
     .work h2{
         font-size: 2rem;
-        margin-top: 10px;
-        display: none;
+        margin-top: 10%;
     }
 
 }
@@ -1723,7 +1729,9 @@ body {
     .work--lockup .slider--item-title{
         display: none;
     }
-    .work--lockup .slider--item-image img{}
+    .work--lockup .slider--item-image img{
+        margin-top: 5%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -1732,14 +1740,17 @@ body {
     }
     .work h2{
         font-size: 2rem;
-        margin-top: 10px;
-        display: none;
+        margin-top: 10%;
     }
     .work{
-        margin-top: -22.5%;
+        margin-top: -12.5%;
     }
     .intro--banner h1{
-        margin-top: -3%;
+        margin-top: 15%;
+        font-size: 40px;
+    }
+    .about--banner h2{
+        font-size: 40px;
     }
 }
 
