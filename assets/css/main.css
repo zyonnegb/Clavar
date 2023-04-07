@@ -1735,6 +1735,9 @@ body {
         margin-top: 10px;
         display: none;
     }
+    .work{
+        margin-top: -10%;
+    }
 }
 
 .outer-nav li.is-vis:nth-child(2) {
