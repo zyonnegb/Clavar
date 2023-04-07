@@ -1738,6 +1738,9 @@ body {
     .work{
         margin-top: -10%;
     }
+    .intro--banner h1{
+        margin-top: -3%;
+    }
 }
 
 .outer-nav li.is-vis:nth-child(2) {
