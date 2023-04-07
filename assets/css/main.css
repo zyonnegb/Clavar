@@ -1796,4 +1796,7 @@ body {
     .work--lockup .slider--item-image img{
         width: 65%;
     }
+    .hire h2{
+        margin-bottom: -5%;
+    }
 }
