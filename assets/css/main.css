@@ -1793,7 +1793,7 @@ body {
 @media (max-width: 350px){
     .intro--banner {
         font-size: 1rem;
-        height: 280px;
+        height: 320px;
     }
     .work h2{
         margin-bottom: 15%;
