@@ -1793,4 +1793,7 @@ body {
     .work{
         margin-top: -20%;
     }
+    .work--lockup .slider--item-image img{
+        width: 65%;
+    }
 }
