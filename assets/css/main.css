@@ -1776,12 +1776,19 @@ body {
     .work h2 {
     margin-top: 10%;
 }}
-@media (max-width: 430px){
+@media (max-width: 350px){
+    .work h2{
+        margin-top: 35%;
+    }
+    .work--lockup{
+        margin-top: -20%;
+    }
     .about--banner h2{
-        margin-top: -15%;
+        margin-top: 50%;
     }
     .work--lockup .slider--item-center .slider--item-description{
-        margin-top: -5%;
+        margin-top: -15%;
+        font-size: 1rem;
     }
 
 }
