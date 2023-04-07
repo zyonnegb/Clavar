@@ -1548,8 +1548,14 @@ body {
 
 @media (max-width: 600px) {
     .work-request--options {
-        margin:20px 0
+        margin:20px;
     }
+    .work h2{
+        font-size: 2rem;
+        margin-top: 10px;
+        display: none;
+    }
+
 }
 
 @media (max-width: 600px) and (max-width: 415px) {
@@ -1580,11 +1586,7 @@ body {
         height: 40px;
         font-size: 24px
     }
-    .work h2{
-        font-size: 2rem;
-        margin-top: 10px;
 
-    }
 }
 
 .perspective {
@@ -1718,11 +1720,20 @@ body {
     .outer-nav>li {
         font-size:44px
     }
+    .work--lockup .slider--item-title{
+        display: none;
+    }
+    .work--lockup .slider--item-image img{}
 }
 
 @media (max-width: 600px) {
     .outer-nav>li {
         font-size:34px
+    }
+    .work h2{
+        font-size: 2rem;
+        margin-top: 10px;
+        display: none;
     }
 }
 
