@@ -1828,10 +1828,4 @@ body {
     .work{
         margin-top: -11%;
     }
-    .intro--banner::before{
-        display: block;
-    }
-    .intro--banner::after{
-        display: block;
-    }
 }
