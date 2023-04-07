@@ -1792,7 +1792,7 @@ body {
         font-size: 1rem;
     }
     .work{
-        margin-top: -25%;
+        margin-top: -22%;
     }
     .work--lockup .slider--item-image img{
         width: 65%;
@@ -1801,7 +1801,7 @@ body {
         margin-bottom: -5%;
     }
     .work-request--options label{
-        width: 295px;
+        width: 290px;
     }
     .work-request--options .options-a, .work-request--options .options-b{
         width: 400px;
