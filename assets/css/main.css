@@ -822,7 +822,8 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 0;
-    list-style: none
+    list-style: none;
+    margin-top: -10%;
 }
 
 .work--lockup .slider--item {
@@ -1778,7 +1779,7 @@ body {
 }}
 @media (max-width: 350px){
     .work h2{
-        margin-top: 35%;
+        margin-bottom: 15%;
     }
     .work--lockup{
         margin-top: -20%;
@@ -1791,12 +1792,18 @@ body {
         font-size: 1rem;
     }
     .work{
-        margin-top: -20%;
+        margin-top: -25%;
     }
     .work--lockup .slider--item-image img{
         width: 65%;
     }
     .hire h2{
         margin-bottom: -5%;
+    }
+    .work-request--options label{
+        width: 295px;
+    }
+    .work-request--options .options-a, .work-request--options .options-b{
+        width: 400px;
     }
 }
