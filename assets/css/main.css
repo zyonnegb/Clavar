@@ -1807,3 +1807,8 @@ body {
         width: 400px;
     }
 }
+@media (max-height: 600px){
+    .work{
+        margin-top: 3%;
+    }
+}
