@@ -1792,7 +1792,7 @@ body {
         font-size: 1rem;
     }
     .work{
-        margin-top: -30%;
+        margin-top: -35%;
     }
     .work--lockup .slider--item-image img{
         width: 65%;
@@ -1809,6 +1809,6 @@ body {
 }
 @media (max-height: 600px){
     .work{
-        margin-top: -9%;
+        margin-top: -11%;
     }
 }
