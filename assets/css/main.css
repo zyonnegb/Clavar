@@ -1832,7 +1832,10 @@ body {
 }
 @media (max-height: 600px){
     .work{
-        margin-top: -8%;
+        margin-top: -10%;
+    }
+    .work h2{
+        margin-bottom: 15%;
     }
 }
 
