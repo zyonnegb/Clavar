@@ -1835,3 +1835,7 @@ body {
         margin-bottom: 10%;
     }
 }
+@media (max-width: 350px)
+.work h2 {
+    margin-bottom: 15%;
+}
