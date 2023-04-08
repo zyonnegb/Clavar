@@ -1351,6 +1351,11 @@ body {
     justify-content: center;
     margin: 0 auto
 }
+@media (max-width: 1200px){
+    .work h2{
+        margin-bottom: 10%;
+    }
+}
 
 @media (max-width: 1180px) {
     .hire {
@@ -1830,12 +1835,8 @@ body {
         margin-top: -8%;
     }
 }
-@media (max-width: 1200px){
+
+@media (max-width: 350px){
     .work h2{
-        margin-bottom: 10%;
-    }
-}
-@media (max-width: 350px)
-.work h2 {
     margin-bottom: 15%;
-}
+}}
