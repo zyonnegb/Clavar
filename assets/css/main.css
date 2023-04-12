@@ -111,6 +111,7 @@ sub {
 img {
     border: 0;
     width: 4rem;
+    margin-top: 1%;
 
 }
 
