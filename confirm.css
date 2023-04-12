@@ -19,19 +19,17 @@ div h2, div h3{
     margin: 0;
     margin-left: 5%;
     font-size: 1.15rem;
-    color: black;
     font-family: 'Roboto';
 }
 div h2{
     font-size: 1.25rem;
-    color: black;
 }
 div h3{
     font-weight: 400;
 }
 a{
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1.15em;
     color: #FF7F00;
     font-family: 'Roboto';
     font-weight: 500;
@@ -40,4 +38,27 @@ a{
 a:hover{
     text-decoration: underline;
     font-size: 1.17rem;
+}
+@media (max-width:1120px){
+    .wrap{
+        width: 30%;
+    }
+}
+@media (max-width:650px ){
+    .wrap{
+        background-color: #0c0c0c;
+    }
+    div h2{
+        color: white;
+        text-align: center;
+    }
+    div h3{
+        color: white;
+        margin: 15% 0%;
+        text-align: center;
+    }
+    a{
+        color: orange;
+        text-align: center;
+    }
 }
