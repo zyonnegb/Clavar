@@ -6,9 +6,9 @@ body{
     justify-content: center;
     align-items: center;
 }
-div {
+.wrap {
     background-color: white;
-    width: 30%;
+    width: 27%;
     height: 150px;
     border-radius: 8px;
     display: flex;
