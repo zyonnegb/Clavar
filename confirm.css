@@ -9,7 +9,7 @@ body{
 .wrap {
     background-color: white;
     width: 27%;
-    height: 150px;
+    height: 130px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,6 @@ div h3{
     font-weight: 400;
 }
 a{
-    text-decoration: none;
     font-size: 1.15em;
     color: #FF7F00;
     font-family: 'Roboto';
@@ -37,7 +36,7 @@ a{
 }
 a:hover{
     text-decoration: underline;
-    font-size: 1.17rem;
+    font-size: 1.20rem;
 }
 @media (max-width:1120px){
     .wrap{
