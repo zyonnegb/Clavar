@@ -390,6 +390,9 @@ body {
     font-weight: 700;
     text-transform: uppercase
 }
+.header--logo:hover{
+    transform: scale(105%);
+}
 
 .header--nav-toggle {
     display: -webkit-box;
